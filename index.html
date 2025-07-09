@@ -12,24 +12,22 @@
       <header class="header center">Nike Air Max Through the Years</header>
 
       <div class="timeline">
-        <div class="container left-align z-depth-2">
-          <div class="textbox">
-            <h2>Air Max 1</h2>
-            <h4>1987</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
-            <img class="responsive-img" src="images/airmax1.png">
-          </div>
-          <button id="modal1" data-target="am1-info" class="btn modal-trigger">Learn More</button>
+        <!--AM 1-->
+
+            <div class=" container left-align z-depth-2">
+              <div class="textbox">
+              <h2>Air Max 1</h2>
+              <h4>1987</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
+              <img class="responsive-img" src="images/airmax1.png">
+              </div>
+              <button data-target="modal1" class="btn-flat modal-trigger">Read More</button>
+            </div>
+
+           
+        
         </div>
-  
-        <div class="modal" id="am1-info">
-          <div class="modal-content">
-            <img class="responsive-img" src="images/airmax1.png">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-              Sunt, labore laborum ut cum modi quibusdam alias nihil, pariatur placeat commodi in sit ducimus nisi aliquid?</p>
-          </div>
-        </div>
-    
+        <!--AM 90-->
         <div class="container right-align z-depth-2">
           <div class="textbox">
             <h2>Air Max 90</h2>
@@ -37,10 +35,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
             <img class="responsive-img" src="images/airmax90.png">
           </div>
+          <button data-target="modal2" class="btn-flat modal-trigger">Read More</button>
         </div>
         
-      
-      
+      <!--AM 95-->
         <div class="container left-align z-depth-2">
           <div class="textbox">
             <h2>Air Max 95</h2>
@@ -48,10 +46,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
             <img class="responsive-img" src="images/airmax95.png">
           </div>
+        <button data-target="modal3" class="btn-flat modal-trigger">Read More</button>
         </div>
      
-
-     
+     <!--AM 97-->
         <div class="container right-align z-depth-2">
           <div class="textbox">
             <h2>Air Max 97</h2>
@@ -59,10 +57,11 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
             <img class="responsive-img" src="images/airmax97.png">
           </div>
+        <button data-target="modal4" class="btn-flat modal-trigger">Read More</button>
         </div>
      
 
-      
+      <!--AM 270-->
         <div class="container left-align z-depth-2">
           <div class="textbox">
             <h2>Air Max 270</h2>
@@ -70,9 +69,57 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate!</p>
             <img class="responsive-img" src="images/airmax270.png">
           </div>
+        <button data-target="modal5" class="btn-flat modal-trigger">Read More</button>
+        </div>
+      </div>
+
+      <!--Modals-->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <p>1</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-flat modal-close">Close</button>
+        </div>
+      </div>
+
+        <div id="modal2" class="modal">
+        <div class="modal-content">
+          <p>90</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-flat modal-close">Close</button>
+        </div>
+      </div>
+
+            <div id="modal3" class="modal">
+        <div class="modal-content">
+          <p>95</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-flat modal-close">Close</button>
+        </div>
+      </div>
+
+            <div id="modal4" class="modal">
+        <div class="modal-content">
+          <p>97</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-flat modal-close">Close</button>
+        </div>
+      </div>
+
+        <div id="modal5" class="modal">
+        <div class="modal-content">
+          <p>270</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-flat modal-close">Close</button>
         </div>
       </div>
 
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+      <script src="timeline.js"></script>
     </body>
   </html>
